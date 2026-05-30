@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    color: #94a3b8;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.profile-img {
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 15px auto;
+    color: #cbd5e1;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.buttons a:hover {
+    background: #1d4ed8;
+}
+
+.projects {
+    padding: 50px 0;
+}
+
+.projects h2,
+.links h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project-card {
+    background: #1e293b;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.project-card a {
+    color: #60a5fa;
+    text-decoration: none;
+}
+
+.links {
+    padding: 40px 0;
+}
+
+.links ul {
+    list-style: none;
+    text-align: center;
+}
+
+.links li {
+    margin: 12px 0;
+}
+
+.links a {
+    color: #60a5fa;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid #334155;
+    margin-top: 40px;
+}
